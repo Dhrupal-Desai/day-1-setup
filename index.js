@@ -1,19 +1,29 @@
+// Personal information
 const name = "Dkd";
-
-const currentJob = "Inventory Administrator";
-
 const careerGoal = "Full-Stack Developer";
 
-const studyHours = 2;
+// Daily study information
+const dailyHours = 3;
+const studyDays = 5;
 
-const hoursPerWeek = studyHours * 6;
+// Calculations
+const weeklyHours = dailyHours * studyDays;
+const monthlyHours = weeklyHours * 4;
+const yearlyHours = weeklyHours * 52;
 
-console.log("My name is " + name);
+// Course
 
-console.log("My current job is " + currentJob);
+const learningPlatform = "The odin Project";
 
-console.log("My career goal is " + careerGoal);
+// Display results
+console.log("===== MY STUDY CALCULATOR =====");
 
-console.log("I study " + studyHours + " hours every day.");
+console.log(`Name: ${name}`);
+console.log(`Career Goal: ${careerGoal}`);
 
-console.log("My weekly study target is " + hoursPerWeek + " hours.");
+console.log(`Daily Study: ${dailyHours} hours`);
+console.log(`Weekly Study: ${weeklyHours} hours`);
+console.log(`Monthly Study: ${monthlyHours} hours`);
+console.log(`Yearly Study: ${yearlyHours} hours`);
+
+console.log(`Learning Course: ${learningPlatform}`);
