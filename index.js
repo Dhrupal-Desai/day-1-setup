@@ -13,7 +13,7 @@ const yearlyHours = weeklyHours * 52;
 
 // Course
 
-const learningPlatform = "The odin Project";
+const learningPlatform = "The Odin Project";
 
 // Display results
 console.log("===== MY STUDY CALCULATOR =====");
@@ -26,4 +26,4 @@ console.log(`Weekly Study: ${weeklyHours} hours`);
 console.log(`Monthly Study: ${monthlyHours} hours`);
 console.log(`Yearly Study: ${yearlyHours} hours`);
 
-console.log(`Learning Course: ${learningPlatform}`);
+console.log(`Learning Platform: ${learningPlatform}`);
